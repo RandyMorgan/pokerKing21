@@ -12,6 +12,9 @@
 		253F6C141F7A7FE100A9E715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253F6C121F7A7FE100A9E715 /* Main.storyboard */; };
 		253F6C161F7A7FE100A9E715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253F6C151F7A7FE100A9E715 /* Assets.xcassets */; };
 		253F6C191F7A7FE100A9E715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253F6C171F7A7FE100A9E715 /* LaunchScreen.storyboard */; };
+		253F6C211F7A800100A9E715 /* controlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F6C201F7A800100A9E715 /* controlViewController.swift */; };
+		253F6C691F81140D00A9E715 /* porkerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F6C681F81140D00A9E715 /* porkerType.swift */; };
+		253F6C6B1F8E709500A9E715 /* aiTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253F6C6A1F8E709500A9E715 /* aiTalk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		253F6C151F7A7FE100A9E715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		253F6C181F7A7FE100A9E715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		253F6C1A1F7A7FE100A9E715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253F6C201F7A800100A9E715 /* controlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlViewController.swift; sourceTree = "<group>"; };
+		253F6C681F81140D00A9E715 /* porkerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = porkerType.swift; sourceTree = "<group>"; };
+		253F6C6A1F8E709500A9E715 /* aiTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiTalk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				253F6C0E1F7A7FE100A9E715 /* AppDelegate.swift */,
 				253F6C101F7A7FE100A9E715 /* ViewController.swift */,
 				253F6C121F7A7FE100A9E715 /* Main.storyboard */,
+				253F6C6A1F8E709500A9E715 /* aiTalk.swift */,
+				253F6C201F7A800100A9E715 /* controlViewController.swift */,
+				253F6C681F81140D00A9E715 /* porkerType.swift */,
 				253F6C151F7A7FE100A9E715 /* Assets.xcassets */,
 				253F6C171F7A7FE100A9E715 /* LaunchScreen.storyboard */,
 				253F6C1A1F7A7FE100A9E715 /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253F6C691F81140D00A9E715 /* porkerType.swift in Sources */,
+				253F6C211F7A800100A9E715 /* controlViewController.swift in Sources */,
 				253F6C111F7A7FE100A9E715 /* ViewController.swift in Sources */,
 				253F6C0F1F7A7FE100A9E715 /* AppDelegate.swift in Sources */,
+				253F6C6B1F8E709500A9E715 /* aiTalk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
